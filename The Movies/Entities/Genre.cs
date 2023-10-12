@@ -12,5 +12,6 @@ namespace The_Movies.Entities
         [Key]
         public int GenreId { get; set; }
         public string Name { get; set; } = string.Empty;
+        public List<Movie>? Movies { get; set; }
     }
 }

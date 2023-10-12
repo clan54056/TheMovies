@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Options;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
+using The_Movies.DataAcess.Context;
 
 namespace WPF_The_Movies
 {
@@ -23,6 +29,7 @@ namespace WPF_The_Movies
         public MainWindow()
         {
             InitializeComponent();
+
         }
     }
 }

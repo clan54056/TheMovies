@@ -11,12 +11,9 @@ namespace The_Movies.Entities
     public class Movie
     {
         [Key]
-        public int Id { get; set; }
+        public int MovieId { get; set; }
         public string Title { get; set; } = string.Empty;
         public int Length { get; set; }
-        [ForeignKey("GenreId")]
-        public int GenreId { get; set; }
         public List<Genre>? Genres { get; set; }
-        public Genre? Genre { get; set; }
     }
 }

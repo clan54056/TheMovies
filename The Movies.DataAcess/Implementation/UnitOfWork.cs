@@ -11,9 +11,9 @@ namespace The_Movies.DataAcess.Implementation
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly The_MoviesDbContext _context;
+        private readonly The_MovieManagementDbContext _context;
 
-        public UnitOfWork(The_MoviesDbContext context)
+        public UnitOfWork(The_MovieManagementDbContext context)
         {
             _context = context;
             Movie = new MovieRepository(_context);

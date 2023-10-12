@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The Movies.Domain", "The Mo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The Movies.DataAcess", "The Movies.DataAcess\The Movies.DataAcess.csproj", "{447CDF91-3675-4B0E-A162-470C7016DC20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_The_Movies", "WPF_The_Movies\WPF_The_Movies.csproj", "{A5F3B6CD-0087-422C-B884-DC4EEBFB8E7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_The_Movies", "WPF_The_Movies\WPF_The_Movies.csproj", "{A5F3B6CD-0087-422C-B884-DC4EEBFB8E7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

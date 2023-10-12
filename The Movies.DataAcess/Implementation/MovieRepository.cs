@@ -11,7 +11,7 @@ namespace The_Movies.DataAcess.Implementation
 {
     public class MovieRepository : GenericRepository<Movie>, IMovieRepository
     {
-        public MovieRepository(The_MoviesDbContext context) : base(context)
+        public MovieRepository(The_MovieManagementDbContext context) : base(context)
         {
 
         }

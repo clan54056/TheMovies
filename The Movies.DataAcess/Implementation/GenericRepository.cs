@@ -11,9 +11,9 @@ namespace The_Movies.DataAcess.Implementation
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        protected readonly The_MoviesDbContext _context;
+        protected readonly The_MovieManagementDbContext _context;
 
-        public GenericRepository(The_MoviesDbContext context)
+        public GenericRepository(The_MovieManagementDbContext context)
         {
             _context = context;
         }
